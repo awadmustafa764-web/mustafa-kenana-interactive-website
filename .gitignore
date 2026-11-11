@@ -1,0 +1,20 @@
+# dependencies & build output (the site is built by GitHub Actions)
+node_modules/
+dist/
+
+# caches & temp
+.vite/
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+*.tmp
+
+# local environment & secrets (none are used today; never commit them)
+.env
+.env.*
+*.pem
+*.key
+
+# local-only Claude Code settings
+.claude/settings.local.json
